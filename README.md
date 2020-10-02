@@ -20,7 +20,7 @@
 -----------------------
 
 
-What is it ?
+What is it?
 -----------------------
 **parallel_party** - Custom Python module wrapping CUDA in a pythonic way (test). A general purpose Python multithreading module offering easy and pythonic access to CPU or GPU parallelization (CUDA).
 This is a test or proof of concept i have done for learning purposes, and it is not ment to become any larger or evolve into a serious project.
@@ -32,7 +32,7 @@ Its features include:
 * Accelleration structures for minimized uploading to GPU memory or naive complete-process computation
 
 
-Know issues
+Known issues
 -----------------------
 * Extracting data out of Python types and packaging them again is not threadsafe and therefore has to be done serial. That is a major limiting factor right now, and a big hit for performance. Im not sure if there is any way to speed this up? Ideas or suggestions are welcome!
 
